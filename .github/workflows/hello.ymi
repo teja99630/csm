@@ -5,5 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: action/checkout@04
-      - name: say hello
+      - name: say hello mate
       - run: echo "Hello Github Actions"

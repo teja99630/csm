@@ -1,0 +1,9 @@
+name: hello
+on : [ push ]
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: action/checkout@04
+      - name: say hello
+      - run: echo "Hello Github Actions"
